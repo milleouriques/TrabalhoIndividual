@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace TrabalhoIndividual
 {
-    class PessoaJuridica
+    class PessoaJuridica : Pessoa
     {
+        string ie = String.Empty;
+        string cnpj = String.Empty;
+
     }
 }
