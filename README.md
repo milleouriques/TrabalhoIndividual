@@ -4,10 +4,11 @@ POO: A programação orientada a objetos possui classes e objetos como base da l
 
 Classe: A classe fica dentro do namespace. Possui modificadores de acesso, sendo eles: public (não restrito), protected (limitado a classe e as derivações dela), internal (pode ser acessado do mesmo projeto) e private (apenas dentro da classe). A classe define propriedades, métodos, etc. 
 
-Método: Um método pode ser utilizado em varias variaveis. São construidos da seguinte forma: ![image](https://user-images.githubusercontent.com/50427189/125985088-006bb864-6edb-4e89-ae7f-4b43d5e5a5cb.png)
+Método: Um método pode ser utilizado em varias variaveis. São construidos da seguinte forma: 
+![image](https://user-images.githubusercontent.com/50427189/125985088-006bb864-6edb-4e89-ae7f-4b43d5e5a5cb.png)
 Um exemplo para utilização é a validação: ![image](https://user-images.githubusercontent.com/50427189/125985379-6fa3cd00-9a1d-46a0-89fe-16f3832d9324.png)
 Assim basta chamar o método onde queira executa-lo dessa forma: ![image](https://user-images.githubusercontent.com/50427189/125985552-f30e7d13-afb2-45d7-8cdb-910dd957900d.png)
-Caso o método não for estatico precisamos instansia-lo (tornando-o um objeto) e então chamar para executar: ![image](https://user-images.githubusercontent.com/50427189/125985643-559cd60e-1837-44aa-8882-bd1147db3712.png)
+Caso o método não for estatico precisamos instancia-lo (tornando-o um objeto) e então chamar para executar: ![image](https://user-images.githubusercontent.com/50427189/125985643-559cd60e-1837-44aa-8882-bd1147db3712.png)
 
 Herança: Pode ser criado uma clase base que é utilizada em outras classes que tenham variaveis em comum, como nome e ID. No caso da criação de classes de pessoa fisica e juridica, a classe base pode ser a pessoa que contém nome e data de nascimento: ![image](https://user-images.githubusercontent.com/50427189/125986452-981661f6-145d-4fdc-9603-b6cae9c9f3a5.png)
 Assim a pessoa fisica e jurida se tornam filhas da classe base (pessoa): ![image](https://user-images.githubusercontent.com/50427189/125986549-b6701051-8b61-4408-8612-64edcf077c11.png)
