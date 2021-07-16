@@ -8,10 +8,10 @@ namespace TrabalhoIndividual
 {
     public class Endereco
     {
-        string rua = String.Empty;
-        int numero = 0;
-        string complemento = String.Empty;
-        string bairro = String.Empty;
-        string cidade = String.Empty;
+        public string Rua { get; set; }
+        public int Numero { get; set; }
+        public string Complemento { get; set; }
+        public string Bairro { get; set; }
+        public string Cidade { get; set; }
     }
 }

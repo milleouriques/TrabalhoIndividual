@@ -8,8 +8,8 @@ namespace TrabalhoIndividual
 {
     class PessoaJuridica : Pessoa
     {
-        string ie = String.Empty;
-        string cnpj = String.Empty;
+        public string Ie { get; set; }
+        public string Cnpj { get; set; }
 
     }
 }

@@ -8,8 +8,8 @@ namespace TrabalhoIndividual
 {
     class PessoaFisica : Pessoa
     {
-        string rg = String.Empty;
-        string cpf = String.Empty;
+        public string Rg { get; set; }
+        public string Cpf { get; set; }
 
     }
 }
