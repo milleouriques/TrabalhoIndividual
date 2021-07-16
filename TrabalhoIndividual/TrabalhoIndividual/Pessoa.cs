@@ -8,11 +8,12 @@ namespace TrabalhoIndividual
 {
     public class Pessoa
     {
-        string nome = String.Empty;
 
-        protected DateTime nascimento;
+        public string Nome { get; set; }
 
-        string endereco = String.Empty;
+        public DateTime DateTime { get; set; }
+
+        public Endereco Endereco { get; set; }
 
     }
 }
